@@ -6,11 +6,10 @@ def check_log():
     """
     
     log = ""
+    file_name = input("Enter a file name\n")
+    file_path = f"{f"./{file_name}"}"
     
     try:
-        file_name = input("Enter a file name\n")
-        file_path = f"{f"./{file_name}"}"
-        
         with open(file_path, 'r') as log_file:
             log = log_file.read()
 
