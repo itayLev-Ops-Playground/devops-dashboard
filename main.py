@@ -1,3 +1,7 @@
+from sysinfo import show_sysinfo as show_sysinfo
+from logcheck import check_log as check_log
+from tasklist import manage_tasks as manage_tasks
+
 def show_menu():
     """
     Show main menu
@@ -12,9 +16,9 @@ def show_menu():
 """
     print(menu)
 
-is_main_menu_on = True
 
 def main():
+    is_main_menu_on = True
 
     while is_main_menu_on:
         """
@@ -29,11 +33,13 @@ def main():
         user_choice = int(input("Enter choice then press enter: "))
 
         if user_choice == 1:
-            print("Coming soon...")
+            show_sysinfo()
         if user_choice == 2:
-            print("Coming soon...")
+            check_log()
         if user_choice == 3:
-            print("Coming soon...")
+            manage_tasks()
         if user_choice == 0:
             print("See you soon...")
             is_main_menu_on = False
+
+main()
