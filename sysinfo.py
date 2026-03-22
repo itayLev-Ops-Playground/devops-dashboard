@@ -15,6 +15,7 @@ def show_sysinfo():
   This function prints each one of the system properties.
   """
   
-  for prop, value in sysinfo:
+  print("\n")
+  for prop, value in sysinfo.items():
     print(f"{prop}: {value}")
   
