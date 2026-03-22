@@ -1,0 +1,127 @@
+    1  /usr/bin/python3 /home/devops/Lessons/Github/17.03.26/devops-dashboard/main.py
+    2  git clone https://github.com/itayLev-Ops-Playground/devops-dashboard.git
+    3  ls
+    4  ls devops-dashboard/
+    5  cat README.md
+    6  cd devops-dashboard/
+    7  cat README.md 
+    8  git remote add origin https://github.com/itayLev-Ops-Playground/devops-dashboard.git
+    9  git config
+   10  git config -l
+   11  git remote -v
+   12  git push -u origin main
+   13  touch main.py
+   14  git status
+   15  git log --oneline
+   16  git push
+   17  git add .
+   18  git status
+   19  git commit -m "Added main menu"
+   20  git push
+   21  git log --one;ine
+   22  git log --oneline
+   23  ld
+   24  ls
+   25  cd Lessons/
+   26  ls
+   27  cd g
+   28  cd Github/
+   29  ls
+   30  cd 17.03.26/
+   31  ls
+   32  cd devops-dashboard/
+   33  ls
+   34  cat main.py
+   35  ifconfig
+   36  sudo apt update
+   37  sudo apt install git
+   38  git config --list
+   39  git config --global core.editor "nano"
+   40  git config --list
+   41  ls
+   42  cd Lessons/
+   43  cd Github/
+   44  cd ..
+   45  ls
+   46  cd Github/
+   47  ls
+   48  cd 17.03.26/
+   49  ls
+   50  cd devops-dashboard/
+   51  ls
+   52  cat README.md 
+   53  cat main/py
+   54  cat main.py
+   55  git config --list
+   56  git config --global --list
+   57  git status
+   58  git diff
+   59  git log --oneline
+   60  ls
+   61  git push
+   62  cd Lessons/
+   63  cd Github/
+   64  ls
+   65  cd 17.03.26/
+   66  cd devops-dashboard/
+   67  ls
+   68  git log --oneline
+   69  git status
+   70  git push
+   71  ls
+   72  git add .
+   73  git status
+   74  /usr/bin/python3 /home/devops/Lessons/Github/17.03.26/devops-dashboard/main.py
+   75  git log --oneline
+   76  git log --merges
+   77  git revert 50eb593
+   78  git status
+   79  git add sysinfo.py
+   80  git status
+   81  git commit -m "Added sysinfo functionality to enable viewing of system info"
+   82  git log --oneline
+   83  git status
+   84  git add logcheck.py
+   85  git status
+   86  git commit -m "Added log chrcker functionality to sort out ERROR logs"
+   87  git log --oneline
+   88  git status
+   89  git add tasklist.py
+   90  git status
+   91  git commit -m "Added tasks list functionality to manage tasks"
+   92  git add main.py && git commit -m "Refactored main menu to work with new modules"
+   93  git log --oneline
+   94  git push
+   95  git config --global --list
+   96  git config --global user.email "itay.lev@campus.technion.ac.il"
+   97  git config --global --list
+   98  cd ~
+   99  ssh-keygen -t ed25519 "itay.lev@campus.technion.ac.il"
+  100  ssh-keygen -t ed25519 -C "itay.lev@campus.technion.ac.il"
+  101  cat ~/.ssh/id_ed25519.pub
+  102  ssh -T git@github.com
+  103  git remote -v
+  104  ld
+  105  ls
+  106  cd Lessons/
+  107  ls
+  108  cd Github/
+  109  cd 17.03.26/
+  110  cd devops-dashboard/
+  111  git remote -v
+  112  git remote set-url origin git@github.com:itayLev-Ops-Playground/devops-dashboard.git
+  113  git remote -v
+  114  echo "SSH authentication enabled" >> README.md
+  115  cat README.md 
+  116  nano README.md 
+  117  cat README.md 
+  118  git add REA
+  119  git add README.md 
+  120  git status
+  121  git commit -m "switched to SSH authentication"
+  122  git log --oneline
+  123  git push
+  124  git pull
+  125  his
+  126  history
+  127  history >> history.txt
