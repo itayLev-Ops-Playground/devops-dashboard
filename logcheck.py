@@ -14,7 +14,7 @@ def check_log():
             log = log_file.read()
 
     except FileNotFoundError as e:
-        print(f"Error: The file '{file_path}' was not found.")
+        print(f"\n\nError: The file '{file_path}' was not found.")
         print(f"An error occurred: {e.strerror}")
         
     log_lines = log.split("\n")
