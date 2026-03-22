@@ -1,6 +1,4 @@
 
-from main import main as main
-
 tasks = [
     {"task_num": 1, "task_title": "Kaki", "task_content": "Maki sushi"},
     {"task_num": 2, "task_title": "Kaki", "task_content": "Maki sushi"}
@@ -59,13 +57,15 @@ def view_all_tasks():
     tasks_str = ""
     for task in tasks:
         cur_title = task["task_title"]
-        title = f"{('=' * len(cur_title))}\n{cur_title}\n{('=' * len(cur_title))}"
         cur_num = task["task_num"]
         cur_content = task["task_content"]
+        title = f"{cur_num}. {cur_title}"
         task_str = f"""
+
+{"=" * len(title)}
 {title}
+{"=" * len(title)}
 {cur_content}
-Task {cur_num}
 """     
         tasks_str += task_str
     print(tasks_str)
@@ -101,6 +101,4 @@ def manage_tasks():
             case 3:
                 remove_task_by_number()
             case 4:
-                main()
                 tasks_menu_on = False
-
